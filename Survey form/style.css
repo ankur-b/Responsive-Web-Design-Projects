@@ -1,0 +1,78 @@
+body {
+  background-color: lightblue;
+}
+#title {
+  text-align: center;
+  font-size: 50px;
+}
+form {
+  margin: 0 auto;
+  padding: 20px;
+  width: 1000px;
+  background-color: white;
+}
+#description {
+  text-align: center;
+  font-size: 28px;
+}
+
+form div + div {
+  margin-top: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 350px;
+  text-align: right;
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+input{
+  width:300px;
+  margin-left: 30px;
+}
+input[type="checkbox"]{
+    height: 20px;
+    margin-top: 15px;
+}
+input[type="radio"]{
+  height: 20px;
+}
+.input-text{
+  height: 30px;
+}
+textarea {
+  width: 300px;
+  margin-left: 30px;
+}
+#checkboxes{
+  margin-left: 125px;
+  font-size: 20px;
+}
+textarea {
+  vertical-align: top;
+
+  height: 5em;
+}
+
+.button {
+  
+  padding-left: 350px; 
+}
+select{
+  margin-left: 30px;
+}
+
+#radio {
+  padding: 5px;
+}
+#level{
+  margin-left: 120px;
+}
+#submit{
+  margin-left: 25px;
+  width: 80px;
+height: 40px;
+font-size: 20px;
+}

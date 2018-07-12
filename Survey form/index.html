@@ -1,0 +1,93 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Survey  page</title>
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <form id="survey-form" action="/my-handling-form-page" method="post">
+    <div id="formarea">
+      <p id="description">A quick survey about the Technical World</p>
+      <div>
+        <br>
+        <label id="name-label" for="name">Name:</label>
+        <input type="text" id="name" class="input-text" name="name" placeholder="Enter your name" required>
+      </div>
+      <div>
+        <label id="email-label" for="email">E-mail:</label>
+        <input type="email" id="email" class="input-text" name="email" placeholder="Enter your email" required>
+      </div>
+      <div>
+        <div>
+          <label id="number-label" for="number">Age:</label>
+          <input type="number" id="number" class="input-text" name="age" min="1" max="100" placeholder="Age">
+        </div>
+        <div id="dropdown">
+          <br>
+          <label id="fan-type" for="fantype">Qualification</label>
+          <select required>
+  <option>School Student</option>
+  <option>Under Graduate</option>
+  <option>Graduate</option>
+  <option>Post Graduate</option>
+</select>
+        </div>
+        <div id="checkboxes" style="font-size: 24px;">
+          <br>Area of intrest?:
+        </div>
+        <br>
+        <label>Web Development
+             </label>
+        <input type="Checkbox" value="matespluspartnerpub">
+        <br>
+        <label>ios App Development
+             </label>
+        <input type="Checkbox" value="matespub">
+        <br>
+        <label>Android App Development
+             </label>
+        <input type="Checkbox" value="mateshome">
+        <br>
+        <label>Machine Learning
+             </label>
+        <input type="Checkbox" value="partnerhome">
+        <br>
+        <label>Deep Learning</label>
+        <input type="Checkbox" value="homealone">
+        <br>
+        <label for="checkboxes">Virtual Reality
+             </label>
+        <input type="Checkbox" value="family">
+      </div>
+      <br>
+      <div id="radio">
+         <span id="level" style="font-size: 24px;">Which Operating Syestem You Use?:</span>
+        <br>
+        <br>
+        <label>Windows
+             </label>
+        <input type="radio" name="varopinion" value="vargreat">
+        <br>
+        <label>Linux
+             </label>
+        <input type="radio" name="varopinion" value="varterrible">
+        <br>
+        <label>Mac
+             </label>
+        <input type="radio" name="varopinion" value="dontknow">
+        <br>
+        <br>
+      </div class="foot">
+        <label for="msg" style="font-size: 24px;">Comments ?</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </div>
+      <div class="button">
+        <button type="submit" id="submit">Submit</button>
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>
